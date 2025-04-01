@@ -10,7 +10,7 @@ $ cd ~
 $ cd ~/geekationWorkspace
 
 # 4. `LinuxCommandPractice`というディレクトリを作成して、`LinuxCommandPractice`に移動してください。
-$ mkdir -v LinuxCommandPractice
+$ mkdir LinuxCommandPractice && $ cd LinuxCommandPractice
 
 # 5. カレントディレクトリのパスを表示してください。
 $ pwd
@@ -48,7 +48,7 @@ $ touch ./practice_dir_1/practice_dir_2/practice_file1.txt ./practice_dir_1/prac
 $ cd practice_dir_1/practice_dir_2
 
 # 14. `practice_file1.txt`を2つ上の階層のディレクトリ(`LinuxCommandPractice`)へ**移動**してください。**但し、相対パスを使用してください。**
-$ mv ./practice_file1.txt
+$ mv ./practice_file1.txt ../../
 
 # 15. `practice_file2.txt`を2つ上の階層のディレクトリ(`LinuxCommandPractice`)へ**コピー**してください。**但し、相対パスを使用してください。**
 $ cp practice_file2.txt ../../
